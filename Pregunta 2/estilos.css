@@ -5,13 +5,14 @@
 body{
     margin: 0;
     background-color: #E8E8E8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header{
     background-color: #12AAFF;
+    padding: 5px 30px;
     display: flex;
     color: white;
-    padding: 0 5px;
 }
 
 header a{
@@ -46,6 +47,10 @@ li a{
     margin-left: 12.5%;
     display: flex;
 
+}
+
+li a.active {
+    font-weight: 1000;
 }
 
 .container img{
